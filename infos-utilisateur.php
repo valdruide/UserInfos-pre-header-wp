@@ -10,7 +10,7 @@ Author URI: https://tristan-viard.fr
 
 defined( 'ABSPATH' or die ("Hey you have nothing to do here"));
 define('INFOS_UTILISATEUR_DIR', plugin_dir_path(__FILE__));
-require INFOS_UTILISATEUR_DIR . 'vendor/autoload.php';
+require_once INFOS_UTILISATEUR_DIR . 'vendor/autoload.php';
 use InfosUtilisateur\InfosUtilisateur\infoPlugin;
 
 $plugin = new infoPlugin(__FILE__);
