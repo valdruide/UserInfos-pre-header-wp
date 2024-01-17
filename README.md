@@ -1,7 +1,7 @@
 
 # UserInfos pre-header WordPress plugin
 
-This is my first plugin for WordPress adding a customizable pre-header
+Enhance your WordPress website with a custom pre-header, a powerful tool that allows you to effortlessly add a customizable pre-header section. This plugin enables you to display important information to users right at the top of your website, ensuring that key messages, announcements, or any other content are prominently featured.
 
 
 ## Badges
@@ -17,9 +17,13 @@ This is my first plugin for WordPress adding a customizable pre-header
 
 ## Features
 
-- Sticky mode toggle
-- Custom background color
-- Custom text color
+- **Information Display**: Keep your users informed by showcasing essential details such as announcements, promotions, or any important updates in the pre-header area. This ensures that critical information is immediately visible upon accessing your site.
+- **Easy Implementation**: The Custom Pre-Header plugin is user-friendly and easy to implement. No coding skills are required, making it accessible to both beginners and experienced WordPress users.
+- **Responsive Design**: Ensure a seamless user experience across devices with a responsive pre-header. The plugin is designed to adapt to various screen sizes, guaranteeing that your custom content looks great on desktops, tablets, and smartphones.
+- **2 modes**: Sticky or Static
+- **Customizable**: Custom background color and Text color
+
+Take control of your website's first impression and deliver important messages effectively with this plugin. Download and install now to enhance user engagement and communication on your WordPress site.
 
 
 ## Roadmap
