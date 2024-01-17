@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: UserInfos-pre-header
-Plugin URI: https://tristan-viard.fr
+Plugin URI: https://github.com/valdruide/UserInfos-pre-header-wp
 Description: Displays a banner at the top of the site with information for users
 Author: Tristan Viard x Jean-Baptiste Berthouly
 Version: 0.7
