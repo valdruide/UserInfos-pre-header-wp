@@ -8,6 +8,11 @@ This is my first plugin for WordPress adding a customizable pre-header
 
 
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=valdruide_UserInfos-pre-header-wp&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=valdruide_UserInfos-pre-header-wp)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=valdruide_UserInfos-pre-header-wp&metric=bugs)](https://sonarcloud.io/summary/new_code?id=valdruide_UserInfos-pre-header-wp)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=valdruide_UserInfos-pre-header-wp&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=valdruide_UserInfos-pre-header-wp)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=valdruide_UserInfos-pre-header-wp&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=valdruide_UserInfos-pre-header-wp)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=valdruide_UserInfos-pre-header-wp&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=valdruide_UserInfos-pre-header-wp)
 
 
 ## Features
