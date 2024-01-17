@@ -1,0 +1,15 @@
+{
+    "name": "infos-utilisateur/infos-utilisateur",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "InfosUtilisateur\\InfosUtilisateur\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tristan Viard"
+        }
+    ],
+    "require": {}
+}
