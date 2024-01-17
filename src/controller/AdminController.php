@@ -49,18 +49,18 @@ class AdminController{
         register_setting('infos_utilisateur_general', 'color_infos');
         register_setting('infos_utilisateur_general', 'text_color_infos');
         add_settings_section('infos_utilisateur_main', null, null, 'infos-utilisateurs');
-        add_settings_field('bandeau_activated', 'Activer le bandeau :', [$this, 'bandeau_activated_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
+        add_settings_field('bandeau_activated', 'Enable pre-header :', [$this, 'bandeau_activated_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
         add_settings_field('sticky_infos', 'Sticky :', [$this, 'sticky_infos_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
-        add_settings_field('text_infos', 'Texte :', [$this, 'text_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
-        add_settings_field('color_infos', 'Couleur du bandeau :', [$this, 'color_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
-        add_settings_field('text_color_infos', 'Couleur du texte :', [$this, 'text_color_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
+        add_settings_field('text_infos', 'Text :', [$this, 'text_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
+        add_settings_field('color_infos', 'Background color :', [$this, 'color_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
+        add_settings_field('text_color_infos', 'Text color :', [$this, 'text_color_render'], 'infos-utilisateurs', 'infos_utilisateur_main');
     }
 
     public function bandeau_activated_render(){
         ?>
             <input type="checkbox" name="infos_utilisateur_general" value='1' 
             <?php checked(1, get_option('infos_utilisateur_general'), true); ?> /> 
-            <small>Activer / désactiver</small>
+            <small>Enable / Disable</small>
         <?php
     }
 
@@ -68,7 +68,7 @@ class AdminController{
         ?>
             <input type="checkbox" name="sticky_infos" value='1' 
             <?php checked(1, get_option('sticky_infos'), true); ?> /> 
-            <small>Activer / désactiver</small>
+            <small>Enable / Disable</small>
         <?php
     }
 

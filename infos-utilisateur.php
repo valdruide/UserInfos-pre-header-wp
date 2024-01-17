@@ -1,14 +1,14 @@
 <?php
 /*
-Plugin Name: Infos utilisateur
+Plugin Name: UserInfos-pre-header
 Plugin URI: https://tristan-viard.fr
-Description: Affiche un bandeau en haut du site avec des informations pour les utilisateurs
-Author: Tristan Viard x Jean Baptiste Berthouly
+Description: Displays a banner at the top of the site with information for users
+Author: Tristan Viard x Jean-Baptiste Berthouly
 Version: 0.7
 Author URI: https://tristan-viard.fr
 */
 
-defined( 'ABSPATH' or die ("Hey vous n'avez rien à faire ici"));
+defined( 'ABSPATH' or die ("Hey you have nothing to do here"));
 define('INFOS_UTILISATEUR_DIR', plugin_dir_path(__FILE__));
 require INFOS_UTILISATEUR_DIR . 'vendor/autoload.php';
 use InfosUtilisateur\InfosUtilisateur\infoPlugin;
